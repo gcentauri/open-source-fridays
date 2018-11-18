@@ -1,0 +1,8 @@
+The company I work for, [[http://cardflight.com][CardFlight]], has started a program to sponsor 10% of my
+work time for contributing to open source projects.  This repository is to keep
+a log of my experience and work.  I am very grateful to have this opportunity,
+as Free and Open Source software, documentation, and educational material are
+how I gained my knowledge as a programmer in the first place.  Now I am able to
+give back to the community through my work!
+
+** [[first-friday.org][My First Open Source Friday!]] November 16, 2018

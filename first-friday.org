@@ -1,0 +1,195 @@
+#+TITLE: First Open Source Friday!
+
+* Free and Open Source Software (FOSS)
+
+I've long been an advocate of Free and Open Source Software (FOSS), so
+having the opportunity to apply CardFlight's Open Source contribution program
+was something I felt very excited about.
+
+I wouldn't have gotten a job at CardFlight without FOSS. I was able to
+teach myself how to code by utilizing the work of hundreds of people from
+around the globe providing free software, documentation, educational materials.
+The book I credit as being the single most important piece of my education
+is [[http://htdp.org][How to Design Programs]], which was developed and published freely on the
+web, inspired by FOSS principles.
+
+The idea that there is a community of people out there voluntarily giving,
+creating and sharing knowledge is very appealing to me. It is a community
+that asks for participation. I also felt strongly about the "Free" part
+of FOSS. Having the right to use, study, modify, and share software is
+empowering.
+
+The opportunity to spend paid time to engage with free and open source
+software community is one I did not want to pass up.
+
+* Choosing Where to Contribute
+
+Yet despite my enthusiasm, it took me several months to actually
+submit an application. I was holding myself up thinking I had to find the
+perfect project. And when I did find an interesting project, sometimes I
+would lose confidence in my ability to contribute.
+
+My original entry point into the FOSS world was through digital audio software.
+I haven't worked with digital audio in some time, and I miss it, so I thought
+I'd try an audio project. After spending some time trying to understand
+projects of significant complexity, I ended up feeling demoralized rather
+than excited. Picking something so challenging right from the start was
+too much of a barrier to overcome. I doubted that I could accomplish much
+with 10% of my work time. I didn't apply.
+
+I also considered the [[http://dry-rb.org][dry-rb]] project, a collection
+of "next-generation Ruby libraries" intended to help create cleaner code.
+I really like the philosophy and what it bringing to the Ruby community.
+I never ended up applying for this project either though. I kept feeling
+like I wanted something a bit more different than the code I was working
+on day-to-day.
+
+Ultimately, the project I chose was something that happened to be right
+under my nose. 
+
+* Spacemacs
+
+I chose to contribute to the [[http://spacemacs.org][Spacemacs]] project. In
+short, it is a well-tuned "crowd-sourced" configuration for my primary tool:
+the venerable text-editor [[https://www.gnu.org/software/emacs/][Emacs]]. It offers a way for users to bootstrap into 
+powerful editor features without having to configure it all, a challenge in 
+itself.
+
+That being said, there is still a learning curve to overcome. I had been
+hanging out in the Spacemacs [[https://gitter.im/syl20bnr/spacemacs][Gitter
+Chat]] to ask questions and soon began to offer help to other users. I
+realized that I was already contributing in little ways to the Spacemacs
+community. Here's some of the thanks I got from helping in the chat:
+
+[[./assets/first-friday/thanks3.png]]
+[[./assets/first-friday/thanks4.png]]
+[[./assets/first-friday/thanks8.png]]
+[[./assets/first-friday/thanks2.png]]
+[[./assets/first-friday/thanks9.png]]
+[[./assets/first-friday/thanks5.png]]
+[[./assets/first-friday/thanks6.png]]
+[[./assets/first-friday/thanks7.png]]
+
+I was a teacher before becoming a professional programmer. It is natural for
+me to help others learn, and it suddenly became clear to me that there was a
+path to being a FOSS contributor right in front of me.
+
+I went to read the contribution guidelines for Spacemacs and found this:
+
+#+BEGIN_QUOTE
+The best way to support Spacemacs is to contribute to it either by reporting 
+bugs, helping the community on the Gitter Chat or sending pull requests.
+#+END_QUOTE
+
+So without even thinking about it, I had already become a contributor!
+
+* First Friday
+
+** Earning Reputation
+
+After getting approved to work on Spacemacs for my OSS project, I went to the
+chat to ask for advice. Should I talk to someone in charge? Or just jump into 
+GitHub issues and try my best? The reply I got was this:
+
+#+BEGIN_QUOTE
+having a track record is indeed the easiest way to gain more power/responsibilities
+#+END_QUOTE
+
+So... how to get that? I figured by being present in the chat, I'd at least begun
+to establish myself as helpful and interested. I thought I'd spend part of the
+day trying to maintain and improve my track record.
+
+*** Helping in the Spacemacs Gitter Chat
+
+So on my first Open Source Friday I decided would hang out in the chat all
+day and offer what help I could. I was able to help someone out before lunch:
+
+[[./assets/first-friday/thanks1.png]]
+
+Its a good way to get instant feedback from helping others, however, it
+isn't always the most active place. Earlier in the week someone had posted
+a question from the [[http://emacs.stack.exchange.com][emacs stack exchange]]
+which gave me an idea for another way I could contribute.
+
+*** Signing Up for (e) - Emacs Stack Exchange
+
+The [[http://emacs.stack.exchange.com][emacs stack exchange]] is mentioned as a community resource on the Spacemacs
+README. I have ended up there now and then myself when searching to the answer
+to an Emacs question.  Someone had posted a
+[[https://emacs.stackexchange.com/questions/45982/org-mode-any-way-to-automatically-collapse-blocks-e-g-begin-quote/45984#45984][link to a question about Emacs Org-mode]]
+I knew I could answer. I found the reference in the documentation and made
+a guest post to answer it. After a moment's thought, I went ahead and created
+an account.  Within an hour or so, my answer had been upvoted and accepted.
+It has currently earned me +85 reputation points on the stack exchange ;)
+
+[[./assets/first-friday/reputation.png]]
+
+The second accepted answer happened on this first Friday.  I had found another
+org related question that had only one single line answer.  I decided to submit
+an improved answer with a reference to the documentation again, stepped out to
+use the bathoom and had earned another approved answer by the time I got back.
+
+I made a third contribution over the weekend, answering a Spacemacs specific
+question. It got interesting because another StackExchange user offered an
+alternative answer at about the same time. I looked at it and felt like it
+didn't really address the actual question of the original post. Since I had
+earned enough reputation points, I had the priviledge of downvoting unhelpful
+answers. I felt a bit nervous about doing so because the other user had 25k
+reputation points to my 141. But critique is also a part of contributing to
+a knowledge base. It cost me one point to downvote the answer, but through 
+a series of comments the other poster conceded that they had misunderstood
+the question and deleted their answer. I got my reputation point back ;).
+
+All this goes to show that you can make meaningful contributions to
+other members of the community without a single pull request.
+
+** Addressing Open Issues
+
+Meanwhile, I decided to get started on one of the 2000+ issues on the 
+Spacemacs GitHub. I found one [[https://github.com/syl20bnr/spacemacs/issues/11569][bug report]] that hadn't been confirmed yet,
+and decided I could get started by simply trying to reproduce it. But
+before that, I had to check out the latest version of development code.
+
+*** Setting Up Separate Spacemacs for Development
+
+It is a bit strange to try and switch to the develop branch on the software you
+use to edit code day-to-day!  So I decided to clone a new copy of the Spacemacs
+configuration so that I can have a way to start fresh without impacting my
+usual development environment.
+
+- created a directory =spacemacs-dev/=
+- cloned spacemacs into =.emacs.d/= within that directory
+- switched branch to =develop=
+- create bash script to launch emacs with =env= setting HOME to =spacemacs-dev/=
+
+On MacOS the launcher script looks like this:
+
+#+BEGIN_SRC sh
+  #!/bin/bash
+
+  env HOME=/Users/gshang/spacemacs-dev/ open /Applications/Emacs.app/ -n
+#+END_SRC
+
+The =-n= flag to the =open= command opens a new instance of the app if one is
+already running
+
+*** Is It a Bug, or Not?
+
+After I got a development version of Spacemacs up and running, I tried to
+reproduce the bug from a clean slate. It didn't happen. So, I installed all the
+additional packages from the bug report and tried again. Everything still worked
+as expected. I was slightly disappointed, but this sort of triage is still
+important when trying to solve an issue. I ended up posting a comment on 
+the ticket reporting that I could not reproduce the bug, and made reference
+to the commit I tested against. The original reporter commented later that
+while a different related issue has been solved by cleaning out his own
+installation, this bug still persists. The issue remains open.
+
+** Conclusion
+
+While I didn't make any earth-shattering contributions on my first day, I have
+to say it felt very good. I was able to focus in on something I want to learn
+more about, offer help to others, and get started on the path to contributing
+actual code. A big part of the process is simply engagement with the community.
+Software is really about people, not computers and code, and I have begun to
+earn some positive reputation in the FOSS world.
