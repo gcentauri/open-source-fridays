@@ -39,10 +39,9 @@ with 10% of my work time. I didn't apply.
 
 I also considered the [[http://dry-rb.org][dry-rb]] project, a collection
 of "next-generation Ruby libraries" intended to help create cleaner code.
-I really like the philosophy and what it bringing to the Ruby community.
-I never ended up applying for this project either though. I kept feeling
-like I wanted something a bit more different than the code I was working
-on day-to-day.
+I really like the philosophy and what it is bringing to the Ruby community.
+I never ended up applying for this project either. I kept feeling
+like I wanted something slightly more different than my day-to-day work.
 
 Ultimately, the project I chose was something that happened to be right
 under my nose. 
